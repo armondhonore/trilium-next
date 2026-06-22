@@ -1,0 +1,12 @@
+application:
+  name: trilium-next
+  pods:
+  - name: app
+    image: triliumnext/notes:latest
+    path: /
+    servicePorts:
+    - 8080
+    volumes:
+    - name: trilium-data
+      mountPath: /home/node/trilium-data
+      size: 5Gi
