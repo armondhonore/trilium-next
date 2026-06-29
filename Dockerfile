@@ -1,0 +1,1 @@
+FROM triliumnext/notes:latest
