@@ -2,7 +2,7 @@ application:
   name: trilium-next
   pods:
   - name: app
-    image: triliumnext/notes:latest
+    image: mirror.gcr.io/triliumnext/notes:latest
     path: /
     servicePorts:
     - 8080
